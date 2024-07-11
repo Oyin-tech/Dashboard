@@ -1,0 +1,40 @@
+
+.head{
+  background-color: white;
+  /* position: fixed; */
+  z-index: 20;
+}
+.course-date {
+  color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-course {
+  font-size: 25px;
+  font-weight: 600;
+}
+.course-port {
+  display: flex;
+  align-items: center;
+}
+.line{
+  border: none;
+  height: 0.1px;
+  width: 940px;
+  background-color: lightgray;
+}
+.cour {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(95, 94, 94);
+}
+.view {
+  color: lightgray;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,160 @@
+.sidebar-right {
+  margin: 8px;
+  margin-right: 15px;
+}
+.icon {
+  height: 18px;
+}
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px;
+  margin-bottom: 0;
+}
+
+.profile-preview {
+  text-align: center;
+}
+.profile-picture {
+  height: 200px;
+}
+.name{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.status{
+  margin-top: 0;
+  color: rgb(165, 163, 163);
+}
+.line-5{
+  margin: 0;
+  border: none;
+  height: 0.1px;
+  background-color: lightgray;
+}
+.upcoming-courses {
+  display: flex;
+  justify-content: space-between;
+}
+.cour-3{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(95, 94, 94);
+}
+.view-3 {
+  color: lightgray;
+  margin-bottom: 10px;
+}
+.course-info {
+  height: 70px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightgray;
+  padding: 10px 20px;
+  color: rgb(165, 163, 183);
+  font-size: 18px ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.name-time {
+  display: flex;
+  justify-content: space-between;
+  width: 324px;
+}
+.name-time p {
+  margin-top: 0;
+}
+.image-number {
+  display: flex;
+  align-items: center;
+}
+.image-number img{
+  border-radius: 50%;
+  height: 34px;
+  margin-left: -5px;
+}
+.image-number span {
+  margin-left: 55px;
+}
+/* @media (max-width: 1800px) {
+  .body {
+    height: 16500px;
+    width: 1500px;
+  }
+  .below-profile {
+    position: absolute;
+    top: 1200px;
+    bottom: 0px;
+    right: 170px;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+  .upcoming-courses {
+    position: absolute;
+    bottom: 1000px;
+    left: -1150%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .view-3 {
+    margin-left: 890px;
+  }
+  .profile-picture {
+    height: 100px;
+    margin-top: 10px;
+  }
+  } */
+
+  @media screen and (max-width: 768px) {
+    .body {
+      height: 4500px;
+    }
+    .above {
+      z-index: 15;
+      position: absolute;
+      width: 330px;
+      left: 12px;
+      top: -3760px;
+    }
+    .sidebar {
+      opacity: 0;
+    }
+    .sidebar-right{
+      top: 3750px; 
+    }
+    .profile-picture{
+      margin-top: 10px;
+      height: 80px;
+    }
+    .notification {
+      margin-top: 10px;
+    }
+    .status {
+      margin-bottom: 0;
+    }
+    .line-5 {
+      opacity: 0;
+    }
+    .upcoming-courses, .course-info {
+      width: 300px;
+    }
+    .upcoming-courses{
+      margin-left: 20px;
+    }
+    .cour-3, .view-3 {
+      margin-bottom: 0;
+    }
+    .name-time {
+      width: 300px;
+    }
+  }
